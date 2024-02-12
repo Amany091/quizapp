@@ -40,22 +40,7 @@
       "answer": "Facebook Engineers",
       "timeDelay": "20"
     },
-    {
-      "id": "11",
-      "question": "The external JavaScript file must contain the <script> tag.",
-      "choices": [
-        {
-          "id": 98,
-          "value": "True"
-        },
-        {
-          "id": 99,
-          "value": "False"
-        }
-      ],
-      "answer": "True",
-      "timeDelay": "15"
-    },
+    
     {
       "id": "19",
       "question": "How do you write \"Hello World\" in an alert box?",
