@@ -4,7 +4,7 @@
   "description": "A simple quiz application built using Java Script and API.",
   "homepage": "https://Amany091.github.io/quiz-app",
   "scripts": {
-    "deploy": "gh-pages -d components",
+    "deploy": "gh-pages -d /",
     "server": "  json-server --watch components/DB/db.json  "
   },
   "dependencies": {
