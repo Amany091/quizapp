@@ -50,7 +50,7 @@ function AddQuestion() {
   let getRandomId = Math.floor(Math.random() * 100);
   inputs.forEach((input) => {
     input.addEventListener("keydown", (e) => {
-      if (e.key === "Enter") {
+      if (e.key === "Enter" || e.key === "Next" ) {
         e.preventDefault();
         let id = e.target.id;
         data.forEach((dis) => {
