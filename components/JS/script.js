@@ -49,27 +49,26 @@ function AddQuestion() {
   let i = 1;
   let getRandomId = Math.floor(Math.random() * 100);
   inputs.forEach((input) => {
-    input.addEventListener("keydown", (e) => {
-      if (e.key === "Enter" || e.key === "Next" ) {
-        e.preventDefault();
-        let id = e.target.id;
-        data.forEach((dis) => {
-          if (id === "question" && id === dis.id) {
-            questionText = e.target.value;
-            dis.innerHTML = questionText;
-          } else if (id === "choice" && id === dis.id) {
-            choices.push({ id: getRandomId++, value: e.target.value });
-            dis.innerHTML += ` ${i++}. ${e.target.value} `;
-          } else if (id === "answer" && id === dis.id) {
-            answer = e.target.value;
-            dis.innerHTML = answer;
-          } else if (id === "TimeDelay" && id === dis.id) {
-            console.log(e.target.value);
-            timeDelay = e.target.value;
-            dis.innerHTML = timeDelay;
-          }
-        });
-      }
+    input.addEventListener("change", (e) => {
+      e.preventDefault();
+      let id = e.target.id;
+      data.forEach((dis) => {
+        if (id === "question" && id === dis.id) {
+          questionText = e.target.value;
+          dis.innerHTML = questionText;
+        } else if (id === "choice" && id === dis.id) {
+          choices.push({ id: getRandomId++, value: e.target.value });
+          dis.innerHTML += ` ${i++}. ${e.target.value} `;
+        } else if (id === "answer" && id === dis.id) {
+          answer = e.target.value;
+          dis.innerHTML = answer;
+        } else if (id === "TimeDelay" && id === dis.id) {
+          console.log(e.target.value);
+          timeDelay = e.target.value;
+          dis.innerHTML = timeDelay;
+        }
+      });
+      
     });
   });
 }

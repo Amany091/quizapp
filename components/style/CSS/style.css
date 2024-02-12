@@ -8,7 +8,7 @@ body{
     background: rgb(18, 18, 24);
     background: linear-gradient(0deg, rgba(18,18,21,1) 0%, rgb(32, 93, 234) 100%);
     width: 100vw;
-    height: 119vh;
+    height: 120vh;
     color: #fff;
     font-family: 'Poppins', sans-serif;
     overflow-x: hidden;
@@ -131,5 +131,11 @@ input:focus{
 
 }
 
+@media screen and (max-width: 700px) {
+    .container {
+        width: 85.90vw;
+        max-width: 90vw;
+    }
+}
 
 

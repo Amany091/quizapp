@@ -83,6 +83,21 @@
       ],
       "answer": "Cairo",
       "timeDelay": "30"
+    },
+    {
+      "id": 9,
+      "question": "is js stand for java script?",
+      "choices": [
+        {
+          "id": 49,
+          "value": "True"
+        },
+        {
+          "id": 50,
+          "value": "false"
+        }
+      ],
+      "timeDelay": null
     }
   ]
 }
