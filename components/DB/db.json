@@ -5,11 +5,9 @@
       "question": "ReactJS is developed by ?",
       "choices": [
         {
-          "id": 32,
           "value": "Google Engineers"
         },
         {
-          "id": 33,
           "value": "Facebook Engineers"
         }
       ],
@@ -21,19 +19,15 @@
       "question": "How do you write \"Hello World\" in an alert box?",
       "choices": [
         {
-          "id": 46,
           "value": "msg(\"Hello World\")"
         },
         {
-          "id": 48,
           "value": "alert(\"Hello World\")"
         },
         {
-          "id": 49,
           "value": "alertBox(\"Hello World\")"
         },
         {
-          "id": 50,
           "value": "msgBox(\"Hello World\")"
         }
       ],
@@ -45,23 +39,36 @@
       "question": "what HTML stand for?",
       "choices": [
         {
-          "id": 4,
           "value": "Hyper Testing Manuplation Language"
         },
         {
-          "id": 5,
           "value": "Hyper Text Manuplation Language"
         },
         {
-          "id": 6,
           "value": "High Text Manuplation Language"
         },
         {
-          "id": 7,
           "value": "'heap Text Manuplation Language"
         }
       ],
       "answer": "Hyper Text Manuplation Language",
+      "timeDelay": "10"
+    },
+    {
+      "id": 8,
+      "question": "what does CSS stand for?",
+      "choices": [
+        {
+          "value": "Cascading Style Sheet"
+        },
+        {
+          "value": "control Style Sheet"
+        },
+        {
+          "value": "Cors Style Sheet"
+        }
+      ],
+      "answer": "Cascading Style Sheet",
       "timeDelay": "10"
     }
   ]
