@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="../style/CSS/style.css">
+    <title>Create Quiz</title>
+</head>
+<body>
+    <div class="container ">
+        <h4 class="text-center text-uppercase my-5 text-primary" >prepare a quiz </h4>
+        <form method="post">
+            <label for="question" class="form-label" >Enter Question</label>
+            <input type="text" name="question" id="question" pattern="/[.</>a-z\#]+/v" title="you able to write text with numbers and symbols only" class="form-control">
+            <label for="choice" class="form-label">Type Choice</label>
+            <input type="text" name="choice" id="choice" pattern="/[.</>a-z/#]+/v" class="form-control">
+            <label for="answer" class="form-label">Type Answer</label>
+            <input type="text" name="answer" id="answer" pattern="/[.</>a-z\#]+/v" class="form-control">
+            <div class="time">
+            <input type="text" class="w-25 text-center"  name="delay" id="TimeDelay">
+            <p class="text-danger text-sm mx-2">Choose Time Delay</p>
+            </div>
+            <div class="submit d-flex justify-content-around my-5">
+                <button class="btn btn-warning add" tyjpe="submit">Add</button>
+                <button class="btn  reset btn-primary" >Reset</button>
+            </div>
+        </form>
+        
+        <!-- display questions with onChange event in script.js file -->
+        <div class="showQs  ">
+            <div class="question">
+                <h6>Question:</h6> <p  id="question"></p> 
+            </div>
+            <div class="choice">
+                <h6>Choice : </h6><p id="choice"></p> 
+            </div>
+            <div class="answer">
+                <h6>Answer:</h6> <p id="answer"></p>
+            </div>
+            <div class="delay">
+                <h6>Time Delay: </h6> <p class="text-danger" id="TimeDelay"></p>
+            </div>
+        </div>
+        <div class="displayQs d-flex justify-content-between my-3 px-2 ">
+            <button class="btn btn-success" onclick="window.location.href = './showQs.html' ">Display Questions</button> 
+            <button class="btn-primary btn-sm" onclick="window.location.href = '../Quiz/quiz.html'" >Start A Quiz</button>
+        </div>
+    </div>
+    
+
+    <script src="../JS/Framework/bootstrap.bundle.min.js"></script>
+    <script src="../JS/script.js"  ></script>
+</body>
+</html>
