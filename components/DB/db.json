@@ -1,0 +1,84 @@
+{
+  "questions": [
+    {
+      "id": "0",
+      "question": "How can you access the state of a component from inside of a member function?",
+      "choices": [
+        {
+          "id": 27,
+          "value": "this.getState()"
+        },
+        {
+          "id": 28,
+          "value": "this.prototype.stateValue"
+        },
+        {
+          "id": 29,
+          "value": "this.state"
+        },
+        {
+          "id": 30,
+          "value": "this.values"
+        }
+      ],
+      "answer": "this.state",
+      "timeDelay": "15"
+    },
+    {
+      "id": "13",
+      "question": "ReactJS is developed by ?",
+      "choices": [
+        {
+          "id": 32,
+          "value": "Google Engineers"
+        },
+        {
+          "id": 33,
+          "value": "Facebook Engineers"
+        }
+      ],
+      "answer": "Facebook Engineers",
+      "timeDelay": "20"
+    },
+    {
+      "id": "11",
+      "question": "The external JavaScript file must contain the <script> tag.",
+      "choices": [
+        {
+          "id": 98,
+          "value": "True"
+        },
+        {
+          "id": 99,
+          "value": "False"
+        }
+      ],
+      "answer": "True",
+      "timeDelay": "15"
+    },
+    {
+      "id": "19",
+      "question": "How do you write \"Hello World\" in an alert box?",
+      "choices": [
+        {
+          "id": 46,
+          "value": "msg(\"Hello World\")"
+        },
+        {
+          "id": 48,
+          "value": "alert(\"Hello World\")"
+        },
+        {
+          "id": 49,
+          "value": "alertBox(\"Hello World\")"
+        },
+        {
+          "id": 50,
+          "value": "msgBox(\"Hello World\")"
+        }
+      ],
+      "answer": "alert(\"Hello World\")",
+      "timeDelay": "20"
+    }
+  ]
+}

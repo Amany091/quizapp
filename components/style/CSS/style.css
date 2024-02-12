@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(18, 18, 24);
+    background: linear-gradient(0deg, rgba(18,18,21,1) 0%, rgb(32, 93, 234) 100%);
+    width: 100vw;
+    height: 119vh;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+.container{
+    position: absolute;
+    left: 50%;
+    top: 2rem;
+    transform: translateX(-50%);
+    /* width: 85vw;
+    height: 100%; */
+    background: #161f29;
+    border-radius: 30px;
+    padding: 0.5rem;
+    box-shadow: -1px -1px black, 0em 0 0.4em #cacaf2
+}
+
+.container form input {
+    margin: 10px 0px;
+    font-size: 20px;
+}
+
+.container form label {
+    cursor: pointer;
+}
+.container .showQs div{
+    display: flex;
+    align-items: baseline;
+}
+.container .showQs div h6{
+    margin-right: 10px;
+}
+.container .showQs div p {
+    font-size: 18px;
+    color: #ffd500;
+}
+input:focus{
+    color: #2222e3;
+}
+
+.showHideData{
+    display: block;
+}
+.time {
+    display: flex;
+    align-items: baseline;
+}
+/* ? showQs.html file  */
+.display {
+    width: 92vw;
+    margin: auto;
+}
+
+.display #displayData{
+    border-radius: 20px;
+    background-color: #c4c4c4;
+    padding: .5rem 1rem;
+    color: #000;
+    margin: 10px 0px;
+}
+
+#displayData span{
+    color: #0a58ca;
+}
+#displayData .choices{
+    display: flex;
+    flex-direction: column;
+}
+.length{
+    text-align: center;
+    padding: 0.5rem 1rem;
+    position: fixed;
+    right: 0;
+}
+
+/* ?quiz.html file */
+
+.container-fluid{
+    color: #000;
+}
+.card{
+    background-color: #f9fafb;
+    width: 85vw;
+    padding: 1rem;
+    height: 60vh;
+    max-height: 65vh;
+    border-radius: 10px;
+}
+
+.displayQuestions{
+    padding: 10px;
+    margin: 10px 0px;
+    width: 100%;
+    position: absolute;
+    top: 20%;
+}
+.answers button:not([disabled]){
+    border: 1px solid #000;
+}
+
+.answers button:disabled{
+    cursor: no-drop;
+}
+
+.correct {
+    background-color: greenyellow;
+}
+
+.inCorrect {
+    background-color: red;
+}
+
+.next-button {
+    display: none;
+}
+
+
+.answers button:hover {
+    background-color: #8d8686;
+
+}
+
+
+
