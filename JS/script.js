@@ -47,7 +47,7 @@ async function postQuestions() {
 
 function AddQuestion() {
   let i = 1;
-  let getRandomId = Math.floor(Math.random() * 100);
+  // let getRandomId = Math.floor(Math.random() * 100);
   inputs.forEach((input) => {
     input.addEventListener("change", (e) => {
       e.preventDefault();
@@ -57,7 +57,7 @@ function AddQuestion() {
           questionText = e.target.value;
           dis.innerHTML = questionText;
         } else if (id === "choice" && id === dis.id) {
-          choices.push({ id: getRandomId++, value: e.target.value });
+          choices.push({ value: e.target.value });
           dis.innerHTML += ` ${i++}. ${e.target.value} `;
         } else if (id === "answer" && id === dis.id) {
           answer = e.target.value;

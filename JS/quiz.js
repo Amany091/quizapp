@@ -3,7 +3,8 @@ const displayContainer = document.querySelector(".displayQuestions form .questio
   nextButton = document.querySelector(".next-button"),
   answersButtons = document.querySelector(".answers"),
   time = document.querySelector(".card .timer"),
-  questionText = document.querySelector(".questionTxt");
+  questionText = document.querySelector(".questionTxt"),
+  card = document.querySelector(".card");
 
 let questions = [],
   Answers = [],
@@ -44,6 +45,7 @@ async function showQuestions() {
   let currentQuestion = questions[currentIndex],
     questionNumber = currentIndex + 1;
 
+  card.id = currentQuestion.id;
   let timer = currentQuestion.timeDelay;
   startTimer(timer)
   
@@ -68,7 +70,7 @@ async function showQuestions() {
 }
 
 function selectAnswer(event) {
-  QuestionId = event.target.closest(".card").getAttribute("key");
+  QuestionId = event.target.closest(".card").getAttribute("id");
   questionTxt = event.target.closest(".card").children[1].innerHTML;
   answer = event.target.innerHTML;
   let selectedBtn = event.target,
