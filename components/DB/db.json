@@ -41,7 +41,7 @@
       "timeDelay": "20"
     },
     {
-      "id": 18,
+      "id": "18",
       "question": "what HTML stand for?",
       "choices": [
         {
@@ -63,57 +63,6 @@
       ],
       "answer": "Hyper Text Manuplation Language",
       "timeDelay": "10"
-    },
-    {
-      "id": 7,
-      "question": "what is the capital of egypt?",
-      "choices": [
-        {
-          "id": 97,
-          "value": "Cairo"
-        },
-        {
-          "id": 98,
-          "value": "Estanboul"
-        },
-        {
-          "id": 99,
-          "value": "sudan"
-        }
-      ],
-      "answer": "Cairo",
-      "timeDelay": "30"
-    },
-    {
-      "id": 9,
-      "question": "is js stand for java script?",
-      "choices": [
-        {
-          "id": 49,
-          "value": "True"
-        },
-        {
-          "id": 50,
-          "value": "false"
-        }
-      ],
-      "timeDelay": null
-    },
-    {
-      "id": 5,
-      "question": "is js stand for java script?",
-      "choices": [
-        {
-          "id": 95,
-          "value": "True"
-        },
-        {
-          "id": 96,
-          "value": "false"
-        }
-      ],
-      "answer": "True",
-      "timeDelay": "30"
     }
   ]
 }

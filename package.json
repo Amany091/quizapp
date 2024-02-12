@@ -2,9 +2,9 @@
   "name": "Quiz-App",
   "version": "1.0.0",
   "description": "A simple quiz application built using Java Script and API.",
-  "homepage": "https://Amany091.github.io/quiz-app",
+  "homepage": "https://amany091.github.io/quizapp/components/createQuiz/index.html",
   "scripts": {
-    "deploy": "gh-pages -d /",
+    "deploy": "gh-pages -d components",
     "server": "  json-server --watch components/DB/db.json  "
   },
   "dependencies": {
