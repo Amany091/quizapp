@@ -98,6 +98,22 @@
         }
       ],
       "timeDelay": null
+    },
+    {
+      "id": 5,
+      "question": "is js stand for java script?",
+      "choices": [
+        {
+          "id": 95,
+          "value": "True"
+        },
+        {
+          "id": 96,
+          "value": "false"
+        }
+      ],
+      "answer": "True",
+      "timeDelay": "30"
     }
   ]
 }
